@@ -16,7 +16,7 @@ docker pull ghost:1.8.0
 docker run -it --name blog -p 2368:2368 -v /var/lib/ghost/config.production.json:/var/lib/ghost/config.production.json -v /var/lib/ghost/content:/var/lib/ghost/content ghost:1.8.0
 ```
 
-> [config.production.json]() 文件要提前准备好，根据自己的实际情况修改配置文件。
+> [config.production.json](https://github.com/bubbleatgit/docker-ghost/blob/master/config.production.json) 文件要提前准备好，根据自己的实际情况修改配置文件。
 
 ## 进阶
 
