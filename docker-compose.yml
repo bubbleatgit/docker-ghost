@@ -1,0 +1,9 @@
+version: "3.2"
+services:
+  ghost:
+    image: "ghost:1.8.0"
+    volumes:
+      - /var/lib/ghost/content:/var/lib/ghost/content
+      - "/var/lib/ghost/config.production.json:/var/lib/ghost/config.production.json"
+    ports: 
+      - "2368:2368"
